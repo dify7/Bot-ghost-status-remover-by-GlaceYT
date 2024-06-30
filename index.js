@@ -12,7 +12,7 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('YaY Your Bot Status Changed✨');
+  res.send('Bot durumu değişti✨');
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to : http://localhost:${port}`);
