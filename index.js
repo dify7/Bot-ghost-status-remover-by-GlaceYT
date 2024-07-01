@@ -70,3 +70,4 @@ client.once('ready', () => {
     updateStatusAndSendMessages();
   }, 10000);
 });
+login();
